@@ -1,0 +1,44 @@
+body{
+margin:0;
+font-family: 'Helvetica Neue', Arial, sans-serif;
+background:#0b0b0b;
+color:#f4f4f4;
+line-height:1.7;
+}
+header{
+text-align:center;
+padding:90px 20px;
+border-bottom:1px solid #D4AF37;
+}
+.logo{
+max-width:260px;
+margin-bottom:30px;
+}
+section{
+max-width:1000px;
+margin:auto;
+padding:80px 20px;
+}
+section.dark{
+background:#111;
+border-top:1px solid #D4AF37;
+border-bottom:1px solid #D4AF37;
+}
+h1,h2{
+color:#D4AF37;
+letter-spacing:1px;
+}
+ul{
+list-style:none;
+padding:0;
+}
+ul li::before{
+content:"◆ ";
+color:#D4AF37;
+}
+footer{
+text-align:center;
+padding:40px;
+border-top:1px solid #D4AF37;
+font-size:14px;
+}
